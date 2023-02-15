@@ -1,0 +1,138 @@
+.btnicon {
+    width: 18rem; 
+    height: 100%; 
+    text-align: center;
+    padding: 60px 0;
+}
+
+.kotakDrag {
+	width: 100px;
+	height: 100%;
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+	font-weight: bold;
+}
+
+span.kdrag {
+    min-width: 80px;
+	min-height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+span.benar {
+    min-width: 80px;
+	min-height: 20px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.petakonsep {
+    display: inline-block;
+    transition: .60s;
+    cursor: pointer;
+}
+  
+.petakonsep:hover {
+    transform: scale(1.1);
+}
+
+.dlm {
+	text-indent: 0.5in;
+	text-align: justify;
+}
+
+.bord {
+	border-left: 6px solid rgb(0, 105, 128);
+    background-color: blue;
+    border-radius: 0px 10px 0px 10px;
+    width: 35%;
+    color: white;
+    padding: 10px;
+}
+
+.bord2 {
+	border-left: 6px solid rgb(21, 32, 239);
+    background-color: blue;
+    border-radius: 0px 10px 0px 10px;
+    width: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.bord3 {
+	border-left: 6px solid blue;
+    background-color: rgb(71, 102, 239);
+    border-radius: 0px 10px 0px 10px;
+    width: 20%;
+    color: white;
+    padding: 10px;
+}
+
+.bordU {
+	border: 2px solid blue;
+	padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: 5px;
+}
+
+.bordU2 {
+	border: 2px solid blue;
+	padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: 5px;
+}
+
+.bordU2 ol li{
+    color: black;
+}
+
+.bordL {
+    border-radius: 0px 5px 5px 0px;
+    width: 20%;
+    padding: 10px;
+}
+
+.bordK {
+	border: 3px solid blue;
+	padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.bordT {
+	border: 3px solid blue;
+	padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.isicontent {
+	height:100%;
+	overflow-y:auto;
+	overflow-x: hidden;
+	font-family:'Times New Roman', Times, serif;
+	font-size:20px;
+	line-height:1.5;
+	text-align: justify ;
+	float:left;
+	color: black;
+}
+
+.info{
+    font-size:18px; 
+    padding: 10px;
+}
+
+.mlink {
+    cursor: pointer;
+}
+
+.pembahasan{
+	border: 2px dotted blue;
+}
+.pembahasan2{
+	font-weight: bold;
+}

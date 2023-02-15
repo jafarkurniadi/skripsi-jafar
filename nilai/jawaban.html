@@ -1,0 +1,155 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Nilai Siswa</title>
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/cstyle.css" rel="stylesheet" />
+    <script src="../assets/js/fa-all.js" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="../css/csshasil.css" type="text/css"> -->
+<link rel="shortcut icon" type="icon" href="../../img/ico.png"> 
+<link rel="stylesheet" href="../assets/css/all.css">
+<script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+
+<style>
+    /* label, button{
+        margin-right: 0.5%;
+    } */
+    
+.table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.tulis{
+    font-weight: bold;
+}
+.benar{
+    background-color: green !important;
+}
+.salah{
+    background-color: red !important;
+}
+    @media(max-width: 1000px) {
+    .card{
+        width: fit-content;
+    }
+    
+}
+</style>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="../nilai/hasil.html"><i class="fas fa-house"></i>Halaman Guru</a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+            </div>
+        </form>
+    </nav>
+
+     <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Daftar Isi</div>
+
+                            <a class="nav-link" href="hasil.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Nilai Siswa
+                            </a>
+                            <a class="nav-link active" href="jawaban.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Jawaban Siswa
+                            </a> </div> </div> </nav></div>
+                            <div id="layoutSidenav_content">
+                                <main>
+                                    <div class="container-fluid px-4">
+                                        
+    <h2 class="mt-4 text-center">KUIS</h2>
+    <!-- <br> -->
+    <div class="card-title-md" style="margin: 10px 10px;margin-bottom: 0;">
+        <center style="background-color: #e7f1ef;">
+            <button type="button" class="btn btn-dark" style="font-weight: bold;width: 8%;"><i class="fas fa-mouse-pointer"></i>&nbsp;Kuis</button>
+            <button type="button" class="btn btn-outline-dark" onclick="location.href='jawabanevaluasi.html'" style="font-weight: bold;width: 8%;"><i class="fas fa-mouse-pointer"></i>&nbsp;Evaluasi</button>
+        </center>
+    </div>
+
+    <div class="card-body">
+        <div class="card-title-md">
+            <center> 
+            <label for="nama">Kuis : 
+                <select id="kuis" name="kuis" class="mundur">
+                    <option value="kuis1/" selected="selected">KUIS 1</option>
+                    <option value="kuis2/">KUIS 2</option>
+                    <option value="kuis3/">KUIS 3</option>
+                    <!-- <option value="evaluasi/">EVALUASI</option> -->
+                </select>
+            </label>
+            <label for="nama">Kelas : 
+            <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                <option value="0" selected="selected">-- PILIH KELAS --</option>
+                <option value="1">IV A</option>
+                <option value="2">IV B</option>
+            </select>
+            </label>
+            <button type="button" class="cari btn btn-primary" onclick="readlah()"><i class="fas fa-search"></i>&nbsp;&nbsp;Cari</button>
+            <button type="button" class="cari btn btn-primary download"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</button>
+        </div>
+    <!-- <br> -->
+
+        <table id='table_wrapper' class="table table-light">
+            <thead>
+                <tr>
+                    <th class="ukr1" colspan="" rowspan="2">Nama</th>
+                    <th class="ukr3" colspan="" rowspan="2">Skor</th>
+                    <th class="ukr0" colspan="10">Jawaban</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </thead>
+            <tbody class="disini"></tbody>
+        </table>
+    
+        <center class="ha">
+    <div class=" clear"></div>
+    </div>
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="../assets/demo/chart-area-demo.js"></script>
+    <script src="../assets/demo/chart-bar-demo.js"></script>
+    <script src="../assets/js/simple-datatables.js" crossorigin="anonymous"></script>
+    <script src="../assets/js/datatables-simple-demo.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/js/cscript.js"></script>
+
+
+<script src="../assets/js/jawaban.js"></script>
+<script src="../assets/js/scriptnilai.js"></script>
+</body>
+</html> 

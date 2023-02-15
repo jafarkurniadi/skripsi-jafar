@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Alat bantu yang digunakan untuk melihat benda yang letaknya amat jauh maupun melihat benda yang berkuran amat kecil disebut  . . .",
+        "a": "a. Mata",
+        "b": "b. Indera penglihatan",
+        "c": "c. Alat optik",
+        "d": "d. semua jawaban salah",
+        "benar": "c"        
+    }
+},{
+    "soal1": {
+        "soal": "Lup merupakan salah satu alat optik yang menggunakan benda optik berupa  . . .  ",
+        "a": "a. Cermin datar",
+        "b": "b. Cermin cembung",
+        "c": "c. Lensa cekung",
+        "d": "d. Lensa cembung",
+        "benar": "d"        
+    }        
+},{
+    "soal2": {
+        "soal": "Penderita rabun jauh (miopia) dapat ditolong dengan menggunakan kacamata berlensa . . . ",
+        "a": "a. Cekung",
+        "b": "b. Cembung",
+        "c": "c. Rangkap",
+        "d": "d. Silinder",
+        "benar": "a"
+    }
+},{
+    "soal3": {
+        "soal": "Alat optik yang digunakan untuk mengamati keadaan permukaan laut dari kapal selam adalah . . . ",
+        "a": "a. Kamera",
+        "b": "b. Lup",
+        "c": "c. Periskop",
+        "d": "d. Kacamata",
+        "benar": "c"
+    }
+},{
+   "soal4": {
+        "soal": "Alat optik yang digunakan untuk membantu penglihatan penderita rabun jauh dan rabut dekat adalah. . .",
+        "a": "a. Kamera",
+        "b": "b. Lup",
+        "c": "c. Periskop",
+        "d": "d. Kacamata",
+        "benar": "d"
+    }
+},{    
+    "soal5": {
+        "soal": "Dibawah ini yang merupakan fungsi kamera sebagai alat optik adalah. . .",
+        "a": "a. Mengamati keadaaan di permukaan laut dari dalam kapal selam",
+        "b": "b. Memperbesar bayangan benda",
+        "c": "c. Membantu penglihatan penderita rabun jauh dan rabun dekat",
+        "d": "d. Mengabadikan dan merekam peristiwa",
+        "benar": "d"
+    }
+},{ 
+    "soal6": {
+        "soal": "Kamera merupakan salah satu alat optik yang menggunakan  ...",
+        "a": "a. Cermin cembung",
+        "b": "b. Cermin datar",
+        "c": "c. Lensa cembung",
+        "d": "d. Lensa datar",
+        "benar": "c"
+    }
+},{ 
+    "soal7": {
+        "soal": "Periskop sederhana menggunakan benda optik, yaitu ...",
+        "a": "a. Dua cermin cembung ",
+        "b": "b. Dua cermin datar",
+        "c": "c. Dua lensa cembung",
+        "d": "d. Dua cermin datar",
+        "benar": "d"
+    }
+},{ 
+    "soal8": {        
+        "soal": "Periskop merupakan bagian penting dari perlengkapan  ...",
+        "a": "a. Kapal dagang",
+        "b": "b. Kapal layar",
+        "c": "c. Kapal selam",
+        "d": "d. Kapal pemburu",
+        "benar": "c"
+    }
+},{
+    "soal9": {
+        "soal": "Berikut ini yang bukan merupakan alat optik adalah  ...",
+        "a": "a. Mata",
+        "b": "b. Kacamata",
+        "c": "c. Lup",
+        "d": "d. Kamera",
+        "benar": "a"
+    }
+}]

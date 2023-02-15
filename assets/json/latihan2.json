@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Mata bagian luar terdiri atas bagian-bagian berikut, kecuali  . . .",
+        "a": "a. Saraf mata",
+        "b": "b. Alis mata",
+        "c": "c. Kelopak mata",
+        "d": "d. Bulu mata",
+        "benar": "a"        
+    }
+},{
+    "soal1": {
+        "soal": "Mata bagian dalam terdiri atas bagian-bagian berikut, kecuali  . . .  ",
+        "a": "a. Saraf mata",
+        "b": "b. Alis mata",
+        "c": "c. Pupil",
+        "d": "d. Retina",
+        "benar": "b"        
+    }        
+},{
+    "soal2": {
+        "soal": "Mengatur banyaknya cahaya yang masuk merupakan fungsi dari . . . ",
+        "a": "a. Saraf mata",
+        "b": "b. Otot mata",
+        "c": "c. Pupil",
+        "d": "d. Iris",
+        "benar": "c"
+    }
+},{
+    "soal3": {
+        "soal": "Meneruskan dan memfokuskan cahaya agar jatuh tepat di retina merupakan fungsi dari . . . ",
+        "a": "a. Saraf mata",
+        "b": "b. Retina",
+        "c": "c. Pupil",
+        "d": "d. Lensa mata",
+        "benar": "d"
+    }
+},{
+   "soal4": {
+        "soal": "Meneruskan rangsang cahaya yang diterima sel-sel reseptor ke susunan saraf pusat otak merupakan fungsi dari. . .",
+        "a": "a. Saraf mata",
+        "b": "b. Retina",
+        "c": "c. Iris",
+        "d": "d. Pupil",
+        "benar": "a"
+    }
+},{    
+    "soal5": {
+        "soal": "Gangguan mata yang disebabkan oleh kekurangan vitamin A sehingga sel-sel penglihatan tidak peka terhadap cahaya disebut.. . .",
+        "a": "a. Miopia/Rabun jauh",
+        "b": "b. Rabun senja",
+        "c": "c. Hipermetropia/Rabun dekat",
+        "d": "d. Buta warna",
+        "benar": "b"
+    }
+},{ 
+    "soal6": {
+        "soal": "Ketidakmampuan mata untuk melihat dengan jelas benda-benda jauh. Kelainan ini dapat diatasi dengan menggunakan lensa cekung merupakan gangguan penglihatan ...",
+        "a": "a. Prespobia/Mata tua",
+        "b": "b. Hipermetropia/Rabun dekat",
+        "c": "c. Miopia/Rabun jauh",
+        "d": "d. Buta warna",
+        "benar": "c"
+    }
+},{ 
+    "soal7": {
+        "soal": "Kelainan mata yang dapat diatasi dengan menggunakan lensa cembung adalah  ...",
+        "a": "a. Buta warna",
+        "b": "b. Prespobia/Mata tua",
+        "c": "c. Miopia/Rabun jauh",
+        "d": "d. Hipermetropia/Rabun dekat",
+        "benar": "d"
+    }
+},{ 
+    "soal8": {        
+        "soal": "Keadaan seseorang tidak dapat membedakan warna merupakan   ...",
+        "a": "a. Buta warna",
+        "b": "b. Miopia/Rabun jauh",
+        "c": "c. Prespobia/Mata tua",
+        "d": "d. Hipermetropia/Rabun dekat",
+        "benar": "a"
+    }
+},{
+    "soal9": {
+        "soal": "Penderita buta warna total hanya mampu melihat warna ...",
+        "a": "a. Merah",
+        "b": "b. Hitam",
+        "c": "c. Biru",
+        "d": "d. Hijau",
+        "benar": "b"
+    }
+}]

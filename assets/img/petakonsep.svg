@@ -1,0 +1,410 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+width="900"
+height="360"
+viewBox="0 0 238.12499 105.83334"
+version="1.1"
+id="svg8"
+inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+sodipodi:docname="petakonsep.svg">
+	<defs
+	id="defs2">
+		<filter
+		inkscape:collect="always"
+		style="color-interpolation-filters:sRGB"
+		id="filter4611"
+		x="-0.023432147"
+		width="1.0468643"
+		y="-0.077644922"
+		height="1.1552898">
+			<feGaussianBlur
+			inkscape:collect="always"
+			stdDeviation="0.8266342"
+			id="feGaussianBlur4613" />
+		</filter>
+		<filter
+		inkscape:collect="always"
+		style="color-interpolation-filters:sRGB"
+		id="filter879"
+		x="-0.009696654"
+		width="1.0193933"
+		y="-0.015738538"
+		height="1.0314771">
+			<feGaussianBlur
+			inkscape:collect="always"
+			stdDeviation="0.53337725"
+			id="feGaussianBlur881" />
+		</filter>
+		<filter
+		inkscape:collect="always"
+		style="color-interpolation-filters:sRGB"
+		id="filter921"
+		x="-0.012139045"
+		width="1.024278"
+		y="-0.011864104"
+		height="1.0237283">
+			<feGaussianBlur
+			inkscape:collect="always"
+			stdDeviation="0.52056322"
+			id="feGaussianBlur923" />
+		</filter>
+		<filter
+		inkscape:collect="always"
+		style="color-interpolation-filters:sRGB"
+		id="filter940"
+		x="-0.012228064"
+		width="1.0244561"
+		y="-0.011780288"
+		height="1.0235606">
+			<feGaussianBlur
+			inkscape:collect="always"
+			stdDeviation="0.3965081"
+			id="feGaussianBlur942" />
+		</filter>
+	</defs>
+	<sodipodi:namedview
+	id="base"
+	pagecolor="#ffffff"
+	bordercolor="#666666"
+	borderopacity="1.0"
+	inkscape:pageopacity="0.0"
+	inkscape:pageshadow="2"
+	inkscape:zoom="0.70000002"
+	inkscape:cx="321.96256"
+	inkscape:cy="299.38857"
+	inkscape:document-units="mm"
+	inkscape:current-layer="layer1"
+	showgrid="false"
+	units="px"
+	inkscape:window-width="1366"
+	inkscape:window-height="715"
+	inkscape:window-x="-8"
+	inkscape:window-y="-8"
+	inkscape:window-maximized="1"
+	showguides="true">
+		<inkscape:grid
+		type="xygrid"
+		id="grid22" />
+	</sodipodi:namedview>
+	<metadata
+	id="metadata5">
+		<rdf:RDF>
+			<cc:Work
+			rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type
+				rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+				<dc:title></dc:title>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<g
+	inkscape:label="Layer 1"
+	inkscape:groupmode="layer"
+	id="layer1"
+	transform="translate(0,-191.16665)">
+		<rect
+		rx="12.221947"
+		y="164.23103"
+		x="6.0704699"
+		height="80.780663"
+		width="77.822578"
+		id="rect16-3"
+		style="fill:#0088aa;fill-opacity:0.97254902;stroke-width:0.46518514;filter:url(#filter940)"
+		transform="matrix(0.6297137,0,0,0.6297137,12.587179,120.0844)" />
+		<rect
+		style="fill:#0088aa;fill-opacity:0.97254902;stroke-width:0.61079335;filter:url(#filter921)"
+		id="rect18-5"
+		width="102.9201"
+		height="105.30519"
+		x="89.454239"
+		y="172.21124"
+		rx="16.163485"
+		transform="matrix(0.6297137,0,0,0.6297137,12.587179,120.0844)" />
+		<rect
+		rx="20.732836"
+		y="172.7404"
+		x="199.78267"
+		height="81.335732"
+		width="132.01517"
+		id="rect20-6"
+		style="fill:#0088aa;fill-opacity:1;stroke-width:0.60795569;filter:url(#filter879)"
+		transform="matrix(0.6297137,0,0,0.6297137,12.587179,120.0844)" />
+		<rect
+		rx="13.296804"
+		y="118.67081"
+		x="101.59999"
+		height="25.551214"
+		width="84.666679"
+		id="rect4601"
+		style="fill:#aa0044;stroke-width:0.27288601;filter:url(#filter4611)"
+		transform="matrix(0.6297137,0,0,0.6297137,12.587179,120.0844)" />
+		<rect
+		style="fill:#ff0066;stroke-width:0.16850296"
+		id="rect10"
+		width="53.315762"
+		height="15.47109"
+		x="75.899628"
+		y="194.38458"
+		rx="8.3731794" />
+		<text
+		xml:space="preserve"
+		style="font-style:normal;font-weight:normal;font-size:6.66446972px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16661175"
+		x="80.517174"
+		y="203.90535"
+		id="text14"><tspan
+			sodipodi:role="line"
+			id="tspan12"
+			x="80.517174"
+			y="203.90535"
+		style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33157587px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.16661175">SISTEM BILANGAN</tspan></text>
+		<rect
+		rx="7.6963272"
+		y="221.9895"
+		x="15.352146"
+		height="50.86869"
+		width="49.005943"
+		id="rect16"
+		style="fill:#00aad4;fill-opacity:1;stroke-width:0.29293346" />
+		<rect
+		style="fill:#00aad4;stroke-width:0.38462496"
+		id="rect18"
+		width="64.810196"
+		height="66.312119"
+		x="67.748344"
+		y="227.16833"
+		rx="10.178368" />
+		<rect
+		rx="13.055749"
+		y="227.1953"
+		x="137.0602"
+		height="51.218224"
+		width="83.13176"
+		id="rect20"
+		style="fill:#00aad4;fill-opacity:1;stroke-width:0.38283804" />
+		<a
+		href="../main-menu/mulai.html"
+		target="blank"
+		id="a26"
+		transform="translate(-6.8035712,82.776783)">
+			<text
+			xml:space="preserve"
+			style="font-style:normal;font-weight:normal;font-size:5.45647812px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.13641195"
+			x="25.494667"
+			y="152.57494"
+			id="text4617"><tspan
+				sodipodi:role="line"
+				x="25.494667"
+				y="152.57494"
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.3651824px;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.13641195"
+			id="tspan4619">A. Jenis Bilangan</tspan></text>
+		</a>
+		<a
+		href="../material/b/konversi.html"
+		target="blank"
+		id="a30"
+		transform="translate(-6.8035712,82.776783)">
+			<text
+			id="text4625"
+			y="157.43381"
+			x="77.822136"
+			style="font-style:normal;font-weight:normal;font-size:5.64516211px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.14112906"
+			xml:space="preserve"><tspan
+				id="tspan4623"
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.51612997px;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906"
+				y="157.43381"
+				x="77.822136"
+			sodipodi:role="line">B. Konversi Bilangan</tspan></text>
+		</a>
+		<a
+		href="../material/c/penyandian.html"
+		target="blank"
+		id="a34"
+		transform="translate(-6.8035712,82.776783)">
+			<text
+			xml:space="preserve"
+			style="font-style:normal;font-weight:normal;font-size:5.55384398px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.13884607"
+			x="147.5401"
+			y="157.30409"
+			id="text4629"><tspan
+				sodipodi:role="line"
+				x="147.5401"
+				y="157.30409"
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4430747px;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.13884607"
+			id="tspan4627">C. Sistem Penyandian</tspan></text>
+		</a>
+		<path
+		style="opacity:1;fill:#ff0066;fill-opacity:1;stroke-width:0.16661175"
+		id="path4649"
+		d="m 68.378766,200.59685 c -0.600144,0 -1.200301,0 -1.800446,0 -0.647279,0.009 -1.29549,-0.0234 -1.941218,0.0269 -1.191964,0.1053 -2.356781,0.39816 -3.534763,0.59951 -1.721525,0.32129 -3.387799,0.9118 -5.032105,1.50448 -1.467175,0.60546 -2.981146,1.18968 -4.308739,2.07452 -0.515905,0.3067 -0.918058,0.74512 -1.34302,1.15775 -0.561022,0.61003 -1.244613,1.08933 -1.874762,1.62325 -0.663452,0.52646 -1.276774,1.11069 -1.818241,1.76135 -0.304433,0.51197 -0.652444,0.99384 -1.008431,1.47025 -0.350576,0.44297 -0.642906,0.92535 -0.941766,1.4029 -0.212661,0.40906 -0.44854,0.80642 -0.662239,1.21522 -0.144853,0.31452 -0.276261,0.62943 -0.361153,0.96548 -0.212277,0.81431 -1.363882,0.51411 -1.151605,-0.3002 v 0 c 0.112645,-0.42282 0.270453,-0.82535 0.459816,-1.21991 0.230072,-0.43419 0.476574,-0.8596 0.70717,-1.29321 0.317377,-0.50407 0.626009,-1.01459 0.996642,-1.48288 0.368954,-0.49322 0.719437,-0.99762 1.047554,-1.51981 0.586851,-0.70253 1.246362,-1.33809 1.963689,-1.90781 0.611444,-0.51637 1.273719,-0.98101 1.817599,-1.57165 0.481168,-0.45878 0.93337,-0.95153 1.513679,-1.2943 1.415144,-0.92476 2.997681,-1.57322 4.560791,-2.20072 1.71075,-0.61484 3.443283,-1.22797 5.234832,-1.55782 1.215519,-0.20729 2.417173,-0.51103 3.64805,-0.61331 0.675253,-0.047 1.351556,-0.0269 2.02822,-0.03 0.600145,0 1.200302,0 1.800446,0 0.841516,0 0.841516,1.19007 0,1.19007 z"
+		inkscape:connector-curvature="0" />
+		<path
+		style="opacity:1;fill:#ff0066;fill-opacity:1;stroke-width:0.16661175"
+		id="path4651"
+		d="m 38.555871,214.13961 c 0.807547,0.59759 1.544627,1.284 2.295257,1.95044 0.456995,0.34894 0.846729,0.76966 1.270128,1.15574 0.279362,0.2267 0.550784,0.46522 0.803921,0.72115 0.455711,0.45759 0.414816,0.26643 0.107514,0.22615 -0.03557,0.008 -0.09865,0.0597 -0.106582,0.0241 -0.0082,-0.0388 0.0667,-0.0436 0.09644,-0.07 0.1475,-0.13087 0.280167,-0.29704 0.41056,-0.44642 0.344991,-0.43606 0.69327,-0.8719 1.074748,-1.2769 0.278476,-0.4365 0.657097,-0.74776 1.076065,-1.04617 0.456924,-0.29747 0.951409,-0.53343 1.460435,-0.72632 0.78819,-0.29482 1.205117,0.81984 0.416939,1.11466 v 0 c -0.41414,0.15221 -0.813121,0.34792 -1.187544,0.58142 -0.412147,0.29275 -0.614745,0.46802 -0.904299,0.89735 -0.375193,0.38721 -0.70008,0.82174 -1.040278,1.23914 -0.298265,0.34086 -0.595282,0.6866 -1.022226,0.86711 -0.608727,0.0855 -0.845924,-0.16632 -1.23785,-0.5575 -0.227133,-0.24692 -0.498146,-0.45233 -0.751913,-0.67049 -0.416822,-0.38451 -0.805914,-0.79599 -1.256204,-1.14317 -0.709735,-0.63021 -1.407216,-1.27807 -2.165238,-1.85015 -0.700184,-0.46679 -0.04004,-1.457 0.660142,-0.99021 z"
+		inkscape:connector-curvature="0" />
+		<path
+		style="opacity:1;fill:#ff0066;fill-opacity:1;stroke-width:0.16661175"
+		id="path4683"
+		d="m 103.11255,214.54186 c -0.0976,0.51057 -0.14184,1.0288 -0.17226,1.54703 -0.0246,0.49413 -0.0261,0.98898 -0.0273,1.4836 -0.0346,0.45158 0.0255,0.88698 0.10052,1.32983 0.0585,0.33393 0.0872,0.67158 0.1109,1.00939 0.058,0.83952 -1.12931,0.92147 -1.18726,0.082 v 0 c -0.0204,-0.29875 -0.0452,-0.59739 -0.097,-0.89269 -0.0861,-0.50849 -0.15003,-1.01395 -0.11719,-1.53138 0.001,-0.51707 0.003,-1.03439 0.0294,-1.55093 0.0342,-0.573 0.0843,-1.14588 0.19328,-1.71019 0.16504,-0.82518 1.33201,-0.59177 1.16698,0.2334 z"
+		inkscape:connector-curvature="0" />
+		<path
+		style="opacity:1;fill:#ff0066;fill-opacity:1;stroke-width:0.16661175"
+		id="path4685"
+		d="m 97.580209,220.63029 c 0.5694,0.0557 1.11884,0.21609 1.6785,0.32582 0.44135,0.0974 0.846121,0.29274 1.265531,0.45085 0.4386,0.17094 0.76114,0.47598 1.04581,0.84048 0.21141,0.22949 0.33373,0.50042 0.57363,0.69937 0.2218,0.15164 0.46763,0.20122 0.72868,0.17087 0.23069,-0.17642 0.4138,-0.39385 0.59404,-0.6194 0.39297,-0.40443 0.76259,-0.83651 1.19781,-1.1962 0.33098,-0.29403 0.70525,-0.53337 1.07297,-0.77784 0.29422,-0.27937 0.67197,-0.43098 1.03253,-0.60276 0.15275,-0.16589 0.44018,-0.17871 0.5654,-0.36627 0.61051,-0.57916 1.42957,0.28423 0.81906,0.86339 v 0 c -0.26857,0.23477 -0.57048,0.3932 -0.87415,0.578 -0.31462,0.14865 -0.63165,0.2733 -0.88633,0.52025 -0.3379,0.22199 -0.67991,0.44245 -0.98263,0.71179 -0.37875,0.29192 -0.66911,0.68753 -1.01669,1.01474 -0.38215,0.47411 -0.79865,0.9384 -1.42447,1.06038 -0.58234,0.0387 -1.12881,-0.0906 -1.59892,-0.45184 -0.30264,-0.26281 -0.50083,-0.57904 -0.74947,-0.88576 -0.14676,-0.20722 -0.28647,-0.34621 -0.52403,-0.44827 -0.355011,-0.13816 -0.697111,-0.30092 -1.068941,-0.39417 -0.5608,-0.11113 -1.11117,-0.26937 -1.68172,-0.32647 -0.82517,-0.16502 -0.59178,-1.332 0.23339,-1.16696 z"
+		inkscape:connector-curvature="0" />
+		<path
+		inkscape:connector-curvature="0"
+		d="m 137.36439,200.47779 c 0.60015,0 1.2003,0 1.80045,0 0.64728,0.009 1.2955,-0.0234 1.94123,0.0269 1.19196,0.1053 2.35677,0.39816 3.53475,0.59951 1.72153,0.32129 3.3878,0.9118 5.03212,1.50448 1.46716,0.60546 2.98113,1.18967 4.30874,2.07452 0.51589,0.3067 0.91804,0.74512 1.34302,1.15775 0.56101,0.61003 1.2446,1.08933 1.87475,1.62326 0.66345,0.52645 1.27677,1.11068 1.81824,1.76134 0.30444,0.51197 0.65245,0.99385 1.00843,1.47026 0.35059,0.44296 0.6429,0.92534 0.94176,1.40288 0.21267,0.40907 0.44854,0.80643 0.66224,1.21523 0.14486,0.31452 0.27626,0.62943 0.36117,0.96548 0.21228,0.81432 1.36387,0.51411 1.15159,-0.3002 v 0 c -0.11264,-0.42282 -0.27044,-0.82535 -0.45981,-1.21991 -0.23008,-0.43419 -0.47657,-0.8596 -0.70716,-1.29321 -0.31739,-0.50407 -0.62602,-1.01458 -0.99664,-1.48288 -0.36896,-0.49323 -0.71945,-0.99762 -1.04757,-1.51981 -0.58685,-0.70253 -1.24635,-1.3381 -1.96369,-1.90781 -0.61143,-0.51637 -1.27372,-0.98102 -1.8176,-1.57165 -0.48117,-0.45877 -0.93336,-0.95153 -1.51367,-1.29431 -1.41515,-0.92475 -2.99768,-1.57322 -4.5608,-2.20071 -1.71075,-0.61484 -3.44328,-1.22797 -5.23482,-1.55781 -1.21553,-0.2073 -2.41718,-0.51104 -3.64806,-0.61331 -0.67525,-0.047 -1.35156,-0.0269 -2.02822,-0.0301 -0.60015,0 -1.2003,0 -1.80045,0 -0.84151,0 -0.84151,1.19009 0,1.19009 z"
+		id="path4687"
+		style="opacity:1;fill:#ff0066;fill-opacity:1;stroke-width:0.16661175" />
+		<path
+		inkscape:connector-curvature="0"
+		d="m 167.16555,214.18887 c -0.80754,0.5976 -1.54462,1.28401 -2.29525,1.95045 -0.45701,0.34894 -0.84674,0.76966 -1.27013,1.15574 -0.27938,0.2267 -0.55079,0.46522 -0.80393,0.72115 -0.4557,0.45759 -0.41481,0.26643 -0.10752,0.22614 0.0354,0.008 0.0986,0.0597 0.10647,0.0241 0.008,-0.0388 -0.0667,-0.0436 -0.0964,-0.07 -0.1475,-0.13088 -0.28018,-0.29705 -0.41056,-0.44642 -0.34499,-0.43607 -0.69327,-0.87191 -1.07475,-1.2769 -0.27847,-0.4365 -0.6571,-0.74777 -1.07606,-1.04617 -0.45694,-0.29747 -0.95141,-0.53343 -1.46045,-0.72632 -0.78818,-0.29482 -1.20511,0.81984 -0.41693,1.11465 v 0 c 0.41414,0.15221 0.81311,0.34793 1.18755,0.58143 0.41213,0.29276 0.61473,0.46802 0.90428,0.89735 0.3752,0.3872 0.70008,0.82174 1.04029,1.23913 0.29827,0.34087 0.59527,0.6866 1.02222,0.86712 0.60873,0.0855 0.84592,-0.16633 1.23786,-0.55751 0.22713,-0.24692 0.49815,-0.45233 0.75191,-0.67048 0.41682,-0.38451 0.80592,-0.79599 1.25621,-1.14317 0.70973,-0.63021 1.40721,-1.27807 2.16523,-1.85015 0.70019,-0.46679 0.04,-1.45701 -0.66014,-0.99022 z"
+		id="path4689"
+		style="opacity:1;fill:#ff0066;fill-opacity:1;stroke-width:0.16661175" />
+		<text
+		id="text4697"
+		y="242.48135"
+		x="22.449301"
+		style="font-style:normal;font-weight:normal;font-size:5.45647812px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.13641195"
+		xml:space="preserve"><a
+			href="../material/a/1desimal/desimal.html"
+			target="blank"
+			id="a43"><tspan
+				id="tspan4695"
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.00141764px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.13641195"
+				y="242.48135"
+				x="22.449301"
+			sodipodi:role="line">1. Desimal</tspan></a><a
+			href="../material/a/2biner/biner.html"
+			target="blank"
+			id="a46"><tspan
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.00141764px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.13641195"
+				y="249.30196"
+				x="22.449301"
+				sodipodi:role="line"
+			id="tspan4699">2. Biner</tspan></a><a
+			href="../material/a/3oktal/oktal.html"
+			target="blank"
+			id="a49"><tspan
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.00141764px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.13641195"
+				y="256.12256"
+				x="22.449301"
+				sodipodi:role="line"
+			id="tspan4701">3. Oktal</tspan></a><a
+			href="../material/a/4heksadesimal/heksadesimal.html"
+			target="blank"
+			id="a52"><tspan
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.00141764px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.13641195"
+				y="262.94315"
+				x="22.449301"
+				sodipodi:role="line"
+			id="tspan4703">4. Heksadesimal</tspan></a>	   </text>
+			<text
+			xml:space="preserve"
+			style="font-style:normal;font-weight:normal;font-size:5.64516211px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.14112906"
+			x="73.342728"
+			y="246.57872"
+			id="text4717"><a
+				href="../material/b/1dec2bin/dec2bin.html"
+				target="blank"
+				id="a56"><tspan
+					id="tspan4715"
+					sodipodi:role="line"
+					x="73.342728"
+					y="246.57872"
+				style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.76344156px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906">1. Desimal - Biner</tspan></a><a
+				href="../material/b/2dec2oc/dec2oc.html"
+				target="blank"
+				id="a59"><tspan
+					sodipodi:role="line"
+					x="73.342728"
+					y="253.63518"
+					style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.76344156px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906"
+				id="tspan4728">2. Desimal - Oktal</tspan></a><a
+				href="../material/b/3dec2hex/dec2hex.html"
+				target="blank"
+				id="a62"><tspan
+					sodipodi:role="line"
+					x="73.342728"
+					y="260.69162"
+					style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.76344156px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906"
+				id="tspan4730">3. Desimal - Heksadesimal</tspan></a><a
+				href="../material/b/4bin2oc/bin2oc.html"
+				target="blank"
+				id="a65"><tspan
+					sodipodi:role="line"
+					x="73.342728"
+					y="267.74808"
+					style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.76344156px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906"
+				id="tspan4732">4. Biner - Oktal</tspan></a><a
+				href="../material/b/5bin2hex/bin2hex.html"
+				target="blank"
+				id="a68"><tspan
+					sodipodi:role="line"
+					x="73.342728"
+					y="274.80453"
+					style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.76344156px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906"
+				id="tspan4734">5. Biner - Heksadesimal</tspan></a><a
+				href="../material/b/6oc2hex/oc2hex.html"
+				target="blank"
+				id="a71"><tspan
+					sodipodi:role="line"
+					x="73.342728"
+					y="281.86099"
+					style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.76344156px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.14112906"
+				id="tspan4736">6. Oktal - Heksadesimal</tspan></a></text>
+				<text
+				id="text4750"
+				y="247.22194"
+				x="144.66286"
+				style="font-style:normal;font-weight:normal;font-size:4.55223417px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.11380585"
+				xml:space="preserve"><a
+					href="../material/c/1bcd/bcd.html"
+					target="blank"
+					id="a76"><tspan
+						id="tspan4748"
+						style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.53388929px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.11380585"
+						y="247.22194"
+						x="144.66286"
+						sodipodi:role="line">1. BCD (<tspan
+							style="font-style:italic;font-size:3.53388929px;fill:#ffffff;stroke-width:0.11380585"
+						id="tspan4782">Binary Coded Decimal)</tspan></tspan></a><a
+						href="../material/c/2bch/bch.html"
+						target="blank"
+						id="a80"><tspan
+							style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.53388929px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.11380585"
+							y="252.91223"
+							x="144.66286"
+							sodipodi:role="line"
+							id="tspan4772">2. BCH (<tspan
+								style="font-style:italic;font-size:3.53388929px;fill:#ffffff;stroke-width:0.11380585"
+							id="tspan4784">Binary Coded Heksadecimal)</tspan></tspan></a><a
+							href="../material/c/3ascii/ascii.html"
+							target="blank"
+							id="a85"><tspan
+								style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.53388929px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.11380585"
+								y="258.60254"
+								x="144.66286"
+								sodipodi:role="line"
+								id="tspan4776">3. ASCII (<tspan
+									style="font-style:italic;font-size:3.53388929px;fill:#ffffff;stroke-width:0.11380585"
+								id="tspan4786">American Standard Code </tspan></tspan><tspan
+								style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.53388929px;line-height:0;font-family:Leelawadee;-inkscape-font-specification:Leelawadee;fill:#ffffff;stroke-width:0.11380585"
+								y="264.29282"
+								x="144.66286"
+								sodipodi:role="line"
+							id="tspan4780">   for Information Interchange)</tspan></a>	   </text>
+	</g>
+</svg>

@@ -1,0 +1,53 @@
+[
+    {
+      "idSoal": 1,
+      "butirSoal": "Peristiwa yang merupakan bukti cahaya dapat merambat lurus yaitu….",
+      "opsiJawaban": [
+        {
+          "poin": "A",
+          "opsi": "Rambatan cahaya matahari yang lurus ketika melewati genting kaca",
+          "jawab": true
+        },
+        {
+          "poin": "B",
+          "opsi": "Memantulnya cahaya pada cermin",
+          "jawab": false
+        },
+        {
+          "poin": "C",
+          "opsi": "Cahaya dibiaskan",
+          "jawab": false
+        },
+        {
+          "poin": "D",
+          "opsi": "Terbentuknya pelangi saat hujan",
+          "jawab": false
+        }
+      ]
+    },{
+        "idSoal": 2,
+        "butirSoal": "Peristiwa yang merupakan bukti cahaya dapat merambat lurus yaitu….",
+        "opsiJawaban": [
+          {
+            "poin": "A",
+            "opsi": "Rambatan cahaya matahari yang lurus ketika melewati genting kaca",
+            "jawab": true
+          },
+          {
+            "poin": "B",
+            "opsi": "Memantulnya cahaya pada cermin",
+            "jawab": false
+          },
+          {
+            "poin": "C",
+            "opsi": "Cahaya dibiaskan",
+            "jawab": false
+          },
+          {
+            "poin": "D",
+            "opsi": "Terbentuknya pelangi saat hujan",
+            "jawab": false
+          }
+        ]
+      }
+  ]

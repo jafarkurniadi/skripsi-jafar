@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Diantara pilihan berikut yang bukan sifat cahaya adalah  . . .",
+        "a": "a. Dapat menembus benda bening",
+        "b": "b. Dapat merambat lurus",
+        "c": "c. Dapat dibiaskan",
+        "d": "d. Dapat dibelokkan",
+        "benar": "d"        
+    }
+},{
+    "soal1": {
+        "soal": "Peristiwa yang merupakan bukti cahaya dapat merambat lurus yaitu  . . .  ",
+        "a": "a. Memantulnya cahaya pada cermin",
+        "b": "b. Cahaya dibiaskan",
+        "c": "c. Rambatan cahaya matahari yang lurus ketika melewati genting kaca",
+        "d": "d. Terbentuknya pelangi saat hujan",
+        "benar": "c"        
+    }        
+},{
+    "soal2": {
+        "soal": "Cahaya yang merambat lurus akan mengakibatkan terbentuknya. . . dari benda yang terkena cahaya.",
+        "a": "a. Cahaya",
+        "b": "b. Bayangan",
+        "c": "c. Sinar",
+        "d": "d. Pelangi",
+        "benar": "b"
+    }
+},{
+    "soal3": {
+        "soal": "Cermin datar adalah benda yang dapat . . . cahaya.",
+        "a": "a. Memantulkan",
+        "b": "b. Merayap",
+        "c": "c. Menggerakan",
+        "d": "d. Membiaskan",
+        "benar": "a"
+    }
+},{
+   "soal4": {
+        "soal": "Berikut macam macam cermin, kecuali. . .",
+        "a": "a. Cermin datar.",
+        "b": "b. Cermin cekung.",
+        "c": "c. Cermin cembung.",
+        "d": "d. Cermin pembesar.",
+        "benar": "d"
+    }
+},{    
+    "soal5": {
+        "soal": "Hal yang menunjukkan peristiwa pembiasan cahaya adalah. . .",
+        "a": "a. Bintang dilangit tampak lebih tinggi",
+        "b": "b. Terbentuknya pelangi",
+        "c": "c. Pensil di dalam gelas yang berisi air terlihat bengkok",
+        "d": "d. Berkas sinar yang melewati celah lubang atap pagi hari",
+        "benar": "c"
+    }
+},{ 
+    "soal6": {
+        "soal": "Ketika berenang, kaki terlihat lebih pendek. Ini menunjukkan bahwa cahaya ...",
+        "a": "a. Dapat dipantulkan",
+        "b": "b. Dapat dibiaskan",
+        "c": "c. Dapat menembus benda bening",
+        "d": "d. Merambat lurus",
+        "benar": "b"
+    }
+},{ 
+    "soal7": {
+        "soal": "Kita dapat melihat ikan di akuarium karena adanya salah satu sifat cahaya yaitu ...",
+        "a": "a. Cahaya dapat menembus benda bening ",
+        "b": "b. Cahaya dapat dipantulkan",
+        "c": "c. Cahaya dapat merambat lurus",
+        "d": "d. Cahaya dapat dibiaskan",
+        "benar": "a"
+    }
+},{ 
+    "soal8": {        
+        "soal": "Benda yang dapat ditembus cahaya adalah  ...",
+        "a": "a. Kain",
+        "b": "b. Air kopi",
+        "c": "c. Air susu",
+        "d": "d. Air putih",
+        "benar": "d"
+    }
+},{
+    "soal9": {
+        "soal": "Cahaya tidak dapat menembus  ...",
+        "a": "a. Gelas bening",
+        "b": "b. Air putih",
+        "c": "c. Kain",
+        "d": "d. Botol plastik",
+        "benar": "c"
+    }
+}]
