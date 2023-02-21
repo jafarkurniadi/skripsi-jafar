@@ -32,51 +32,73 @@
 
                 <div class="inti-konten">
 
-                    <div class="data" id="data">
+                    <!-- <div class="data" id="data">
 
-                        <div class="data_diri">
+                        <div class="data_diri"> -->
 
-                            <nav class="petunjuk d-flex justify-content-between align-items-center">
-                                <h4> Petunjuk Pengerjaan (klik saya!)</h4> 
-                                <div class="fas fa-angle-down fa-1x text-white"></div>
-                            </nav>
+                            <div class="container mt-5" >
+                                <div class="row" id="datadiri">
+                                    <div class="col-6">
+                                        <nav class="petunjuk d-flex justify-content-between align-items-center w-75 mt-3">
+                                            <h4> Petunjuk Pengerjaan (klik saya!)</h4> 
+                                            <div class="fa-solid fa-arrow-down fa-1x text-white"></div>
+                                        </nav>
 
-                            <div class="isinya">
-                                <ol>
-                                    <p>Bacalah petunjuk pengerjaan berikut sebelum mulai mengerjakan :</p>
-                                    <li>Kerjakan soal dengan teliti dan benar</li>
-                                    <li>Masukkan data diri siswa</li>
-                                    <li>Pilih opsi jawaban antara A, B, C, atau D</li>
-                                    <li>Pilih dengan mengklik opsi jawaban</li>
-                                    <li>Pastikan mengklik tombol selesai setelah selesai menjawab</li>
-                                    <li>Berdoa sebelum mengerjakan</li>
-                                </ol>   
+                                        <div class="isinya">
+                                            <ol>
+                                                <p>Bacalah petunjuk pengerjaan berikut sebelum mulai mengerjakan :</p>
+                                                <li>Kerjakan soal dengan teliti dan benar</li>
+                                                <li>Masukkan data diri siswa</li>
+                                                <li>Pilih opsi jawaban antara A, B, C, atau D</li>
+                                                <li>Pilih dengan mengklik opsi jawaban</li>
+                                                <li>Pastikan mengklik tombol selesai setelah selesai menjawab</li>
+                                                <li>Berdoa sebelum mengerjakan</li>
+                                            </ol>   
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="isinya mt-5">
+                                            <div class="container bg-primary text-white p-3">
+                                                <h4 class="text-center">Identitas Diri</h4>
+                                            </div>
+                                            <table class="table table-borderless mt-3">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Nama</td>
+                                                        <td>
+                                                            <input type="text" class="form-control" name="" id="nama" placeholder="Masukkan nama anda">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sekolah</td>
+                                                        <td>
+                                                            <select name="sekolah" id="sekolah" class="form-control">
+                                                                <option value="0">-- Pilih Sekolah --</option>
+                                                                <option value="1">UPTD SD Negeri 4 Gunung Makmur</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Kelas</td>
+                                                        <td>
+                                                            <select class="form-control" id="kelas" name="kelas" >
+                                                                <option value="0" selected="selected">-- Pilih Kelas --</option>
+                                                                <option value="1">IV A</option>
+                                                                <option value="2">IV B</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- <label for="nama"> Kelas :
+                                                <input type="text" id="kelas" name="kelas" class="maju aaa" placeholder="Kelas . . . ">                                
+                                            </label> -->
+
+                                            <div class="lanjut">MULAI</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <br>
-                            <label for="nama"> Nama :
-                                <input type="text" id="nama" class="maju" placeholder="Masukkan nama anda . . . ">
-                            </label>
-                            <label for="nama"> Sekolah :
-                            	<select name="sekolah" id="sekolah" class="maju aaa">
-                                    <option value="0" selected="selected"> Pilih Sekolah </option>
-                                    <option value="1">UPTD SD Negeri 4 Gunung Makmur</option>
-                                </select>                               
-                            </label>
-                            <label for="nama"> Kelas :
-                                <select id="kelas" name="kelas" class="maju aaa" >
-                                    <option value="0" selected="selected"> Pilih Kelas </option>
-                                    <option value="1">IV A</option>
-                                    <option value="2">IV B</option>
-                                </select>
-                            </label>
-                            <!-- <label for="nama"> Kelas :
-                            	<input type="text" id="kelas" name="kelas" class="maju aaa" placeholder="Kelas . . . ">                                
-                            </label> -->
-
-                            <div class="lanjut">MULAI</div>
-                        </div>
-                    </div>
-                    
                     <!-- <div class="up hilang" id="up">
                         <center><h1>Latihan 1</h1></center>
                         <hr>

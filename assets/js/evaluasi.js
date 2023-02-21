@@ -15,7 +15,7 @@ let wktu = document.querySelector('.waktu');
 let nilaiwktu=0;
 
 let selanjutnya = document.querySelector('.lanjut');
-let datadiri = document.querySelector('.data_diri');
+// let datadiri = document.querySelector('.data_diri');
 namanya = document.getElementById('nama');
 kelasnya = document.getElementById('kelas');
 sekolah = document.getElementById('sekolah');
@@ -76,8 +76,9 @@ selanjutnya.addEventListener('click', function () {
     } else if (cek3 == 0) {
         alert("Masih ada data yang kosong, Isi terlebih dahulu sekolah!");
     } else if (cek == 3) {
-        datadiri.className += ' hilang';
-        document.getElementById('data').className += ' hilang';
+        // datadiri.className += ' hilang';
+        // document.getElementById('data').className += ' hilang';
+        document.getElementById("datadiri").hidden = true;
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
         // document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
