@@ -9,8 +9,7 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
-
+    
 let wktu = document.querySelector('.waktu');
 let nilaiwktu=0;
 
@@ -60,7 +59,7 @@ selanjutnya.addEventListener('click', function () {
         }
     } else {
         sekolah.className = sekolah.className.replace('tt_salah', '');
-        if(sekolah.value == "1"){
+        if (sekolah.value == "1"){
             sekolahfix = "UPTD SD Negeri 4 Gunung Makmur";
         }        
         cek += 1;
@@ -76,26 +75,27 @@ selanjutnya.addEventListener('click', function () {
     } else if (cek3 == 0) {
         alert("Masih ada data yang kosong, Isi terlebih dahulu sekolah!");
     } else if (cek == 3) {
+        document.getElementById("datadiri").hidden = true;
         // datadiri.className += ' hilang';
         // document.getElementById('data').className += ' hilang';
-        document.getElementById("datadiri").hidden = true;
         document.getElementById('kiri').className = document.getElementById('kiri').className.replace('hilang', '');
         document.getElementById('kanan').className = document.getElementById('kanan').className.replace('hilang', '');
         // document.getElementById('up').className = document.getElementById('up').className.replace('hilang', '');
+        // countDown();
         wktu.classList.toggle('hilang');
         // waktu
             countDownDate = new Date().getTime();
             //waktu 30 menit
-            // countDownDate += 1800000;            
-            // countDownDate += 2700000;
-            //waktu 50 menit
-            // countDownDate += 3000000;
-            countDownDate += 3001000;
-            // countDownDate += 12000;
+            // countDownDate += 1801000;
+            //waktu 45 menit
+            countDownDate += 2700000;
+            countDownDate += 12000;
+            //15 detik
+            // countDownDate += 17000;
             var x = setInterval(function() {
             var now = new Date().getTime();
             var distance = countDownDate - now;
-            
+                
             // Perhitungan waktu untuk menit dan detik
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
@@ -114,16 +114,16 @@ selanjutnya.addEventListener('click', function () {
     }
 
 
-    MathJax.typeset();
+    // MathJax.typeset();
 
 });
+
 
 // -----------------------------------------------------------------------------------------
 // mengambil data dan menampilkanya
 
 let dat = new XMLHttpRequest();
 dat.onreadystatechange = function () {
-
 
     cek = [];
     jwbs = [];
@@ -140,7 +140,7 @@ dat.onreadystatechange = function () {
         // ---------------------------------
         // acak urutan soal
         //random urutan
-        for (let x = 0; x < 200; x++) {
+        for (let x = 0; x < 100; x++) {
             // acak angka dengan batas length.data dan minimum 0
             let angka = Math.floor(Math.random() * data.length) + 0;
             cek.push(angka);
@@ -208,7 +208,7 @@ dat.onreadystatechange = function () {
             setTimeout(function(){ 
                 let a = document.querySelector('.coba'+i);
                 a.innerHTML =  soaldata;
-             }, 3000);
+            }, 3000);
             //console.log(document.querySelectorAll('.coba1'))
 
             // ---------------------------------
@@ -391,7 +391,7 @@ dat.onreadystatechange = function () {
         let pil_user = [];
         jawabannya = [];
         jawabannya_no = [];
-        
+
         var xx =setInterval(function(){
             if(nilaiwktu ==1){
                 console.log("ok");
@@ -433,9 +433,13 @@ dat.onreadystatechange = function () {
                                 }
                             }
                         }
+
+
                     }
 
                 }
+
+
 
                 for (let i = 0; i < cek.length; i++) {
                     for (let j = 0; j < cek.length; j++) {
@@ -447,17 +451,19 @@ dat.onreadystatechange = function () {
                 }
                 // console.log("jwb_user_urut_no :" + jawabannya_no);
                 // console.log("jwb_user_urut :" + jawabannya);
+
+
                 // simpan kedatabase----------
                 let waktunya = waktu();
                 let harinya = hari();
 
-                createTask(sekolah.value.toUpperCase(), namanya.value.toUpperCase(), kelasfix, hasilakhir, waktunya, harinya, jawabannya);
+                createTask(namanya.value.toUpperCase(), sekolahfix, kelasfix, hasilakhir, waktunya, harinya, jawabannya);
 
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
 
                 let sekolahinput = document.querySelector('.sekolah');
-                sekolahinput.innerText = sekolah.fix;
+                sekolahinput.innerText = sekolahfix
 
                 let kelasinput = document.querySelector('.kelas');
                 kelasinput.innerText = kelasfix;
@@ -480,7 +486,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=72){
+                if(hasilakhir>=70){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {
@@ -489,11 +495,15 @@ dat.onreadystatechange = function () {
                 }
 
                 wktu.classList.toggle('hilang');
+
                 
+                //nilai disimpan ke local storage
+            localStorage.setItem("nevaluasi",hasilakhir);
+            console.log(localStorage);
+
             }
         },1000);
 
-        
         selesai.addEventListener('click', function () {
             let sarat = 0;
 
@@ -536,12 +546,8 @@ dat.onreadystatechange = function () {
                                 }
                             }
                         }
-
-
                     }
-
                 }
-
                 for (let i = 0; i < cek.length; i++) {
                     for (let j = 0; j < cek.length; j++) {
                         if (i == cek[j]) {
@@ -552,31 +558,29 @@ dat.onreadystatechange = function () {
                 }
                 // console.log("jwb_user_urut_no :" + jawabannya_no);
                 // console.log("jwb_user_urut :" + jawabannya);
-
                 // simpan kedatabase----------
                 // console.log(namanya.value);
                 // console.log(sekolah.value);
                 // console.log(kelasfix);
                 // console.log(hasilakhir);
                 
-                
                 let harinya = hari();
                 let waktunya = waktu();
 
-                createTask(sekolah.fix, namanya.value.toUpperCase(), kelasfix, hasilakhir, waktunya, harinya, jawabannya);
-                
+                createTask(namanya.value.toUpperCase(), sekolahfix, kelasfix, hasilakhir, waktunya, harinya, jawabannya);
+
                 let namainput = document.querySelector('.nama');
                 namainput.innerText = namanya.value.toUpperCase();
 
                 let sekolahinput = document.querySelector('.sekolah');
-                sekolahinput.innerText = sekolah.fix;
+                sekolahinput.innerText = sekolahfix
 
                 let kelasinput = document.querySelector('.kelas');
-                kelasinput.innerText = kelasfix;  
+                kelasinput.innerText = kelasfix;
                 
                 let hariinput = document.querySelector('.hari');
                 hariinput.innerText = harinya;
-                
+
                 let waktuinput = document.querySelector('.waktu');
                 waktuinput.innerText = waktunya;
 
@@ -592,7 +596,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=72){
+                if(hasilakhir>=70){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {
@@ -603,6 +607,10 @@ dat.onreadystatechange = function () {
             } else {
                 alert('Masih Ada Soal Yang Belum Dijawab, Periksa Kembali . . . !');
             }
+
+                //nilai disimpan ke local storage
+            localStorage.setItem("nevaluasi",hasilakhir);
+            console.log(localStorage);
 
         });
 
@@ -623,13 +631,13 @@ dat.onreadystatechange = function () {
                     }
                 }
             });
-        }                                   
-
+        }
     }
 
 }
 dat.open('GET', '../assets/json/evaluasi.json', true);
 dat.send();
+
 
 // menyimpan ke dalam databasenya
 
@@ -663,12 +671,12 @@ function hari() {
 }
 
 
-function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jawab) {
+function createTask(nama, sekolah, kelas, nilai, waktunya, hari, jawab) {
     counter += 1;
     var task = {
         id: counter,
-        sekolah: sekolah,
         nama: nama,
+        sekolah: sekolah,
         kelas: kelas,
         nilai: nilai,        
         waktu: waktunya,
@@ -680,3 +688,4 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jawab) {
     database.set(task);
 
 }
+

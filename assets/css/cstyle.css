@@ -136,3 +136,14 @@ span.benar {
 .pembahasan2{
 	font-weight: bold;
 }
+
+.button{
+ color: black;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: large;
+ cursor: pointer;
+ background-color: skyblue;
+border: 2px double whitesmoke;
+margin-right: 15%;
+margin-left: 78%;
+}
