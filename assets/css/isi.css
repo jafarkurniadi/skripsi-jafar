@@ -637,8 +637,9 @@ h3{
     }
 
     .lanjut:hover {
-        background-color: #19222a;
+        background-color: #7386D5;;
         cursor: pointer;
+        color: white;
     }
 
 

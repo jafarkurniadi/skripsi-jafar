@@ -50,28 +50,44 @@ span.benar {
 	border-left: 6px solid rgb(0, 105, 128);
     background-color: blue;
     border-radius: 0px 10px 0px 10px;
-    width: 35%;
+    /* width: 35%; */
     color: white;
     padding: 10px;
+    display: inline-block;
 }
 
 .bord2 {
 	border-left: 6px solid rgb(21, 32, 239);
     background-color: blue;
     border-radius: 0px 10px 0px 10px;
-    width: 50%;
+    /* width: 50%; */
     color: white;
     padding: 10px;
+    display: inline-block;
 }
 
 .bord3 {
 	border-left: 6px solid blue;
     background-color: rgb(71, 102, 239);
     border-radius: 0px 10px 0px 10px;
-    width: 20%;
+    /* width: 20%; */
     color: white;
     padding: 10px;
+    display: inline-block;
+
 }
+
+/* .kotaknad{
+	border-left: 6px solid blue;
+    background-color: rgb(71, 102, 239);
+    border-radius: 0px 10px 0px 10px;
+
+    display: inline-block;
+    color: aliceblue;
+
+    padding: 10px;
+
+} */
 
 .bordU {
 	border: 2px solid blue;
