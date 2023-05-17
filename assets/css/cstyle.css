@@ -147,3 +147,17 @@ border: 2px double whitesmoke;
 margin-right: 15%;
 margin-left: 78%;
 }
+
+.video {
+width: 60%;
+height: auto;
+margin-top: 10px;
+border-radius: 5px 5px 0px 0px;
+}
+
+.video2 {
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+}

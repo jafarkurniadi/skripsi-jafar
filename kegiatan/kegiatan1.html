@@ -174,62 +174,92 @@
                                                     <!-- <center>
                                                         <iframe id="video" src="https://drive.google.com/file/d/17nhBGqq53_yFsMYcbtogOKyngjZSDRq2/preview" width="640" height="480" allow="autoplay"></iframe>
                                                       </center> -->
-                                                      <center><video width="100%" height="auto" id="video" controls >
-                                                        <source src="/video/CAHAYA DAPAT MERAMBAT LURUS.mkv">
-                                                      </video></center>
+                                                      <div class="text-center">
+                                                      <video controls id="video1_1" class="video">
+                                                        <source src="/video/CAHAYA DAPAT MERAMBAT LURUS.mp4"
+                                                        type="video/webm">
+                                                        Browsermu tidak mendukung tag ini, upgrade donk!
+                                                      </video>
                                                       <figcaption class="figure-caption text-center">Video pembelajaran cahaya dapat merambat lurus</figcaption>
                                             </figure>
+                                            <center>
+                                                <div class="card video2">
+                                                    <div class="card-body-12 pb-2 pt-2">
+                                                        <a href="#" onclick="setCurTime1_1(1)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Pendahuluan</a>
+                                                        <a href="#" onclick="setCurTime1_1(2)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Alat dan
+                                                            Bahan</a>
+                                                        <a href="#" onclick="setCurTime1_1(3)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Cara
+                                                            Kerja</a>
+                                                        <a href="#" onclick="setCurTime1_1(4)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Percobaan
+                                                            1</a>
+                                                        <a href="#" onclick="setCurTime1_1(5)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Percobaan
+                                                            2</a>
+                                                        <a href="#" onclick="setCurTime1_1(6)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Percobaan
+                                                            3</a>
+                                                        <a href="#" onclick="setCurTime1_1(7)"
+                                                            class="badge bg-primary btnvideo ml-2 mr-2">Percobaan
+                                                            4</a>
+                                                    </div>
                                                 </div>
-                                                <div id="latihanhide" hidden>
-                                                    <h5 style="font-weight: bold;" class="mt-5">
-                                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPetunjuk"><i class="fa-solid fa-magnifying-glass"></i> Petunjuk (Klik untuk melihat petunjuk!</button>
-                                                        </h5>
-                                                        <table class="table table-bordered tablecek" border="3 px;">
-                                                            <thead class="table-primary">
-                                                              <tr class="text-center">
-                                                                <th scope="col" rowspan="2">No</th>
-                                                                <th scope="col" rowspan="2">Kegiatan</th>
-                                                                <th scope="col" colspan="2">Senter</th>
-                                                                <th scope="col" rowspan="2">Keterangan</th>
-                                                              </tr>
-                                                              <tr class="text-center">
-                                                                <th scope="col">Terlihat</th>
-                                                                <th scope="col">Tidak Terlihat</th>
-                                                              </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                              <tr>
-                                                                <th scope="row">1</th>
-                                                                <td>Lubang pada karton sejajar</td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekBt1();" style="width: 20px; height: 20px;" name="t1" id="bt1"></td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekSt1();" style="width: 20px; height: 20px;" name="t1" id="st1"></td>
-                                                                <td><span class="cekt1" style="font-weight: bold;"></span></td>
-                                                              </tr>
-                                                              <tr>
-                                                                <th scope="row">2</th>
-                                                                <td>Karton nomor dua digeser ke kanan</td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekSt2();" style="width: 20px; height: 20px;" name="t2" id="st2"></td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekBt2();" style="width: 20px; height: 20px;" name="t2" id="bt2"></td>
-                                                                <td><span class="cekt2 mr-2" style="font-weight: bold;"></span></td>
-                                                              </tr>
-                                                              <tr>
-                                                                <th scope="row">3</th>
-                                                                <td>Karton nomor satu digeser ke kiri</td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekSt3();" style="width: 20px; height: 20px;" name="t3" id="st3"></td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekBt3();" style="width: 20px; height: 20px;" name="t3" id="bt3"></td>
-                                                                <td><span class="cekt3 mr-2" style="font-weight: bold;"></span></td>
-                                                              </tr>
-                                                              <tr>
-                                                                <th scope="row">4</th>
-                                                                <td>Ketiga karton di susun secara zig-zag</td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekSt4();" style="width: 20px; height: 20px;" name="t4" id="st4"></td>
-                                                                <td class="text-center"><input type="checkbox" onclick="cekBt4();" style="width: 20px; height: 20px;" name="t4" id="bt4"></td>
-                                                                <td><span class="cekt4 mr-2" style="font-weight: bold;"></span></td>
-                                                              </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    <a onclick="repeatt1()" class="badge bg-warning " style=" font-size: 18px; cursor: pointer;"><i class="fas fa-redo-alt"></i> Ulang</a>
-                                                </div>                                        
+                                            </center>
+                                            <div id="latihanhide" hidden>
+                                                <h5 style="font-weight: bold;" class="mt-5">
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPetunjuk"><i class="fa-solid fa-magnifying-glass"></i> Petunjuk (Klik untuk melihat petunjuk!</button>
+                                                    </h5>
+                                                    <table class="table table-bordered tablecek" border="3 px;">
+                                                        <thead class="table-primary">
+                                                          <tr class="text-center">
+                                                            <th scope="col" rowspan="2">No</th>
+                                                            <th scope="col" rowspan="2">Kegiatan</th>
+                                                            <th scope="col" colspan="2">Senter</th>
+                                                            <th scope="col" rowspan="2">Keterangan</th>
+                                                          </tr>
+                                                          <tr class="text-center">
+                                                            <th scope="col">Terlihat</th>
+                                                            <th scope="col">Tidak Terlihat</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Lubang pada karton sejajar</td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekBt1();" style="width: 20px; height: 20px;" name="t1" id="bt1"></td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekSt1();" style="width: 20px; height: 20px;" name="t1" id="st1"></td>
+                                                            <td><span class="cekt1" style="font-weight: bold;"></span></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Karton nomor dua digeser ke kanan</td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekSt2();" style="width: 20px; height: 20px;" name="t2" id="st2"></td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekBt2();" style="width: 20px; height: 20px;" name="t2" id="bt2"></td>
+                                                            <td><span class="cekt2 mr-2" style="font-weight: bold;"></span></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Karton nomor satu digeser ke kiri</td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekSt3();" style="width: 20px; height: 20px;" name="t3" id="st3"></td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekBt3();" style="width: 20px; height: 20px;" name="t3" id="bt3"></td>
+                                                            <td><span class="cekt3 mr-2" style="font-weight: bold;"></span></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th scope="row">4</th>
+                                                            <td>Ketiga karton di susun secara zig-zag</td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekSt4();" style="width: 20px; height: 20px;" name="t4" id="st4"></td>
+                                                            <td class="text-center"><input type="checkbox" onclick="cekBt4();" style="width: 20px; height: 20px;" name="t4" id="bt4"></td>
+                                                            <td><span class="cekt4 mr-2" style="font-weight: bold;"></span></td>
+                                                          </tr>
+                                                        </tbody>
+                                                    </table>
+                                                <a onclick="repeatt1()" class="badge bg-warning " style=" font-size: 18px; cursor: pointer;"><i class="fas fa-redo-alt"></i> Ulang</a>
+                                            </div>                                        
+                                                      </div>
+                                                </div>
                                             
                                         
                                     </div>

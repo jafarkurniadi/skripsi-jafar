@@ -1,9 +1,4 @@
-const video = document.querySelector('video');
 
-
-video.onended = function() {
-    document.getElementById("latihanhide").hidden = false;
-};
 function hal1(){
     document.getElementById("hal1").hidden = false;
     document.getElementById("hal2").hidden = true;
@@ -508,3 +503,82 @@ function repeatt22(){
     <span id="kkdipantulkan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dipantulkan</span>`
 }
 
+// const videoo = document.querySelector('.videoo');
+
+const video = document.querySelector('video');
+video.onended = function() {
+    document.getElementById("latihanhide").hidden = false;
+};
+var video1_1 = document.getElementById("video1_1");
+
+function setCurTime1_1(X) {
+    if (X == 1) {
+        video1_1.currentTime = 0;
+    } else if (X == 2) {
+        video1_1.currentTime = 14;
+    } else if (X == 3) {
+        video1_1.currentTime = 31;
+    } else if (X == 4) {
+        video1_1.currentTime = 62;
+    } else if (X == 5) {
+        video1_1.currentTime = 80;
+    } else if (X == 6) {
+        video1_1.currentTime = 99;
+    } else if (X == 7) {
+        video1_1.currentTime = 116;
+    }
+}
+
+var video1_2 = document.getElementById("video1_2");
+
+function setCurTime1_2(X) {
+    if (X == 1) {
+        video1_2.currentTime = 0;
+    } else if (X == 2) {
+        video1_2.currentTime = 13;
+    } else if (X == 3) {
+        video1_2.currentTime = 31;
+    } else if (X == 4) {
+        video1_2.currentTime = 56;
+    }
+}
+
+var video1_3 = document.getElementById("video1_3");
+
+function setCurTime1_3(X) {
+    if (X == 1) {
+        video1_3.currentTime = 0;
+    } else if (X == 2) {
+        video1_3.currentTime = 10;
+    } else if (X == 3) {
+        video1_3.currentTime = 31;
+    } else if (X == 4) {
+        video1_3.currentTime = 78;
+    }
+}
+
+var video1_4 = document.getElementById("video1_4");
+
+function setCurTime1_4(X) {
+    if (X == 1) {
+        video1_4.currentTime =0;
+    } else if (X ==2) {
+        video1_4.currentTime = 11;
+    }
+    else if (X ==3) {
+        video1_4.currentTime = 35;
+    }else if (X ==4) {
+        video1_4.currentTime = 45;
+    }else if (X ==5) {
+        video1_4.currentTime = 54;
+    }else if (X ==6) {
+        video1_4.currentTime = 66;
+    }else if (X ==7) {
+        video1_4.currentTime = 78;
+    }else if (X ==8) {
+        video1_4.currentTime = 88;
+    }
+    else if (X ==9) {
+        video1_4.currentTime = 103;
+    }
+}

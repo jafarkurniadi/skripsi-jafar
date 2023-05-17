@@ -74,7 +74,7 @@ signinButton.addEventListener("click", (e) => {
         .then(() => {
           // Data saved successfully!
           //   alert("akun telah sukses login");
-          location.href = "http://127.0.0.1:5500/nilai/hasil.html";
+          location.href = "http://127.0.0.1:5501/nilai/hasil.html?#";
         })
         .catch((error) => {
           //the write failed
