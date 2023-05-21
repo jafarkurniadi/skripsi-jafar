@@ -52,7 +52,7 @@
 
                             <!-- Materi 1 -->
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseMateri1" aria-expanded="false" aria-controls="collapseMateri1">
-                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-book"></i></div>
                                 Sifat-Sifat Cahaya
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
@@ -74,9 +74,9 @@
                             </a>
                             <div class="collapse show" id="collapseMateri2" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/materi/indera1.html"><i class="fas fa-book-open-reader me-1"></i>Bagian-Bagian mata</a>
+                                    <a class="nav-link active" href="/materi/indera1.html"><i class="fas fa-book-open-reader me-1"></i>Bagian-Bagian mata</a>
                                     <a class="nav-link" href="/materi/indera2.html"><i class="fas fa-book-open me-1"></i>Proses Melihat Benda</a>
-                                    <a class="nav-link active" href="/materi/indera3.html"><i class="fas fa-book-open me-1"></i>Gangguan Penglihatan</a>
+                                    <a class="nav-link" href="/materi/indera3.html"><i class="fas fa-book-open me-1"></i>Gangguan Penglihatan</a>
                                     <a class="nav-link" href="/latihan/latihan2.html"><i class="fas fa-list-check me-1"></i>Latihan</a>
                                 </nav>
                             </div>
@@ -182,6 +182,20 @@
                                               </tr>
                                             </tbody>
                                           </table>
+
+                                          <div class="mt-5">
+                                            <div class="bord2"><img src="/assets/img/video.png" height="50px" width="50px">
+                                                Video Pembelajaran</div>
+                                            <div class="bordU">
+                                                <div class="bordU3">Perhatikan video pembelajaran berikut ini! Kemudian isilah kolom kesimpulan dibawah ini!</div> 
+                                                    <div class="text-center">
+                                                        <video controls id="video" class="video">
+                                                        <source src="/video/mata.mp4" type="video/mp4">
+                                                        Mata
+                                                      </video>
+                                                      <figcaption class="figure-caption text-center">Video Bagian-Bagian Mata</figcaption>
+                                            </figure>
+                                            <div id="latihanhide" hidden>
                                         <div class="bord mt-5">
                                             <img src="/assets/img/notes.png" height="50px" width="50px"> Mari Berlatih
                                         </div>
@@ -202,6 +216,7 @@
                                             <button onclick="cekjwb()" class="tombolnya">Cek Jawaban</button>
                                             <button onclick="reset()" class="tombolnya">Reset</button>
                                      </div>
+                                                    </div>
                                         </div>
                                 </div>
                             </div>
@@ -211,7 +226,7 @@
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination pagination-sm justify-content-center">
                                       <li class="page-item">
-                                        <a class="page-link bg-primary btn btn-outline-primary text-white" href="/latihan/latihan2.html">Latihan</a>
+                                        <a class="page-link" href="/materi/indera2.html">Materi Selanjutnya</a>
                                       </li>
                                     </ul>
                                   </nav>
