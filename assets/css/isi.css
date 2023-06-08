@@ -229,7 +229,7 @@ mjx-container {
 .fake-checkbox {
     position: absolute;
     display: block;
-    top: 0;
+    top: 9px;
     left: 3px;
     width: 20px;
     height: 20px;
@@ -385,7 +385,10 @@ ol {
 .dataaa {
     min-height: 670px;
     height: 670px;
-    background-color: white;
+    /* background-image: url('/assets/img/background.png'); */
+    background-color: skyblue;
+    height: 100%;
+    width: 100%;
 }
 
 .data_diri {
@@ -484,22 +487,25 @@ td {
 
 .ket_hasil {
     width: auto;
-    font-size: 15px;
+    font-size: 20%;
     padding: 5px !important;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .pad{
     padding: 0 10px;
-    padding-top: 15px;
+    padding-top: 1%;
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 h3{
-    line-height: 2.5;
+    line-height: 1.5;
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -532,7 +538,8 @@ h3{
         border-radius: 5px;
         padding: 20px;
         max-width: 530px;
-        width: 530px;
+        width: 100%;
+        margin-top: 3%;
     }
 
     td {
@@ -542,6 +549,7 @@ h3{
     .ket_hasilnya{
         padding-left: 5%;
         float: left;
+        font-size: 20px;
     }
 
     .ket_hasil {
@@ -709,9 +717,14 @@ h3{
     }
 
     .dataaa {
-        min-height: auto;
-        background-color: white;
-        height: auto;
+        /* min-height: 100%; */
+        /* background-color: skyblue; */
+        position: relative;
+        background-image: url('/assets/img/background.png');
+        background-position:inherit;
+        background-size: 100%;
+        height: 5%;
+        width: 100%;
     }
 
     .data {

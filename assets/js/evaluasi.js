@@ -9,6 +9,24 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
+  const db = firebase.database();
+  const dbkkm = db.ref('db_kkm/').on('value', kkmSuccess, handleError)
+  
+  let loop1;
+  let kkm1 = 0;
+  
+  function kkmSuccess(items1) {
+    kkm4 = items1.val()[3]['kkm'];
+    console.log(kkm4);
+    var kkm4html =  document.querySelector('.kkm4');
+    kkm4html.innerHTML = kkm4;
+  }
+  
+  function handleError(error) {
+    console.log(error);
+  }
+
     
 let wktu = document.querySelector('.waktu');
 let nilaiwktu=0;
@@ -89,7 +107,7 @@ selanjutnya.addEventListener('click', function () {
             // countDownDate += 1801000;
             //waktu 45 menit
             countDownDate += 2700000;
-            countDownDate += 12000;
+            // countDownDate += 12000;
             //15 detik
             // countDownDate += 17000;
             var x = setInterval(function() {
@@ -100,11 +118,11 @@ selanjutnya.addEventListener('click', function () {
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
                 
-            document.getElementById("timer").innerHTML = minutes + ":" + seconds;
+            document.getElementById("timerr").innerHTML = minutes + ":" + seconds;
                 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("timer").innerHTML = "Waktu Selesai";
+                document.getElementById("timerr").innerHTML = "Waktu Selesai";
                 nilaiwktu=1;
             }
             }, 1000);
@@ -268,7 +286,7 @@ dat.onreadystatechange = function () {
             let nav_sebelum = document.createElement('div');
             nav_sebelum.setAttribute('class', 'nav_sebelum');
             if (i == 0) {
-                nav_sebelum.className += " disablee";
+                nav_sebelum.className += " hilang";
             }
 
             let new_p2 = document.createElement('p');
@@ -284,7 +302,7 @@ dat.onreadystatechange = function () {
             let nav_selanjut = document.createElement('div');
             nav_selanjut.setAttribute('class', 'nav_selanjut');
             if (i == (cek.length - 1)) {
-                nav_selanjut.className += " disablee";
+                nav_selanjut.className += " hilang";
             }
 
             let new_p4 = document.createElement('p');
@@ -486,7 +504,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=70){
+                if(hasilakhir>=kkm4){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {
@@ -596,7 +614,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=70){
+                if(hasilakhir>=kkm4){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {

@@ -9,6 +9,23 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
+  const db = firebase.database();
+  const dbkkm = db.ref('db_kkm/').on('value', kkmSuccess, handleError)
+  
+  let loop1;
+  let kkm2 = 0;
+  
+  function kkmSuccess(items1) {
+    kkm2 = items1.val()[1]['kkm'];
+    console.log(kkm2);
+    var kkm2html =  document.querySelector('.kkm2');
+    kkm2html.innerHTML = kkm2;
+  }
+  
+  function handleError(error) {
+    console.log(error);
+  }
     
 let wktu = document.querySelector('.waktu');
 let nilaiwktu=0;
@@ -268,7 +285,7 @@ dat.onreadystatechange = function () {
             let nav_sebelum = document.createElement('div');
             nav_sebelum.setAttribute('class', 'nav_sebelum');
             if (i == 0) {
-                nav_sebelum.className += " disablee";
+                nav_sebelum.className += " hilang";
             }
 
             let new_p2 = document.createElement('p');
@@ -284,7 +301,7 @@ dat.onreadystatechange = function () {
             let nav_selanjut = document.createElement('div');
             nav_selanjut.setAttribute('class', 'nav_selanjut');
             if (i == (cek.length - 1)) {
-                nav_selanjut.className += " disablee";
+                nav_selanjut.className += " hilang";
             }
 
             let new_p4 = document.createElement('p');
@@ -486,7 +503,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=70){
+                if(hasilakhir>=kkm2){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {
@@ -596,7 +613,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=70){
+                if(hasilakhir>=kkm2){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {
@@ -609,7 +626,7 @@ dat.onreadystatechange = function () {
             }
 
                 //nilai disimpan ke local storage
-            localStorage.setItem("nkuis1",hasilakhir);
+            localStorage.setItem("nkuis2",hasilakhir);
             console.log(localStorage);
 
         });

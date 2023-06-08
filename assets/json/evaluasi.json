@@ -1,181 +1,181 @@
 [{
     "soal0": {
         "soal": "Diantara pilihan berikut yang bukan sifat cahaya adalah  . . .",
-        "a": "a. Dapat menembus benda bening",
-        "b": "b. Dapat merambat lurus",
-        "c": "c. Dapat dibiaskan",
-        "d": "d. Dapat dibelokkan",
+        "a": "Dapat menembus benda bening",
+        "b": "Dapat merambat lurus",
+        "c": "Dapat dibiaskan",
+        "d": "Dapat dibelokkan",
         "benar": "d"        
     }
 },{
     "soal1": {
         "soal": "Peristiwa yang merupakan bukti cahaya dapat merambat lurus yaitu  . . .  ",
-        "a": "a. Memantulnya cahaya pada cermin",
-        "b": "b. Cahaya dibiaskan",
-        "c": "c. Rambatan cahaya matahari yang lurus ketika melewati genting kaca",
-        "d": "d. Terbentuknya pelangi saat hujan",
+        "a": "Memantulnya cahaya pada cermin",
+        "b": "Cahaya dibiaskan",
+        "c": "Rambatan cahaya matahari yang lurus ketika melewati genting kaca",
+        "d": "Terbentuknya pelangi saat hujan",
         "benar": "c"        
     }        
 },{
     "soal2": {
-        "soal": "Cahaya yang merambat lurus akan mengakibatkan terbentuknya. . . dari benda yang terkena cahaya.",
-        "a": "a. Cahaya",
-        "b": "b. Bayangan",
-        "c": "c. Sinar",
-        "d": "d. Pelangi",
+        "soal": "Cahaya yang merambat lurus akan mengakibatkan terbentukny. . dari benda yang terkena cahaya.",
+        "a": "Cahaya",
+        "b": "Bayangan",
+        "c": "Sinar",
+        "d": "Pelangi",
         "benar": "b"
     }
 },{
     "soal3": {
         "soal": "Cermin datar adalah benda yang dapat . . . cahaya.",
-        "a": "a. Memantulkan",
-        "b": "b. Merayap",
-        "c": "c. Menggerakan",
-        "d": "d. Membiaskan",
+        "a": "Memantulkan",
+        "b": "Merayap",
+        "c": "Menggerakan",
+        "d": "Membiaskan",
         "benar": "a"
     }
 },{
    "soal4": {
         "soal": "Berikut macan macam cermin, kecuali. . .",
-        "a": "a. Cermin datar.",
-        "b": "b. Cermin cekung.",
-        "c": "c. Cermin cembung.",
-        "d": "d. Cermin pembesar.",
+        "a": "Cermin datar.",
+        "b": "Cermin cekung.",
+        "c": "Cermin cembung.",
+        "d": "Cermin pembesar.",
         "benar": "d"
     }
 },{    
     "soal5": {
         "soal": "Benda yang dapat ditembus cahaya adalah. . .",
-        "a": "a. Kain",
-        "b": "b. Air kopi",
-        "c": "c. Air susu",
-        "d": "d. Air putih",
+        "a": "Kain",
+        "b": "Air kopi",
+        "c": "Air susu",
+        "d": "Air putih",
         "benar": "d"
     }
 },{ 
     "soal6": {
         "soal": "Cahaya tidak dapat menembus  ...",
-        "a": "a. Gelas bening",
-        "b": "b. Air putih",
-        "c": "c. Kain",
-        "d": "d. Botol plastik",
+        "a": "Gelas bening",
+        "b": "Air putih",
+        "c": "Kain",
+        "d": "Botol plastik",
         "benar": "c"
     }
 },{ 
     "soal7": {
         "soal": "Mata bagian luar terdiri atas bagian-bagian berikut, kecuali ...",
-        "a": "a. Saraf mata",
-        "b": "b. Alis mata",
-        "c": "c. Kelopak mata",
-        "d": "d. Bulu mata",
+        "a": "Saraf mata",
+        "b": "Alis mata",
+        "c": "Kelopak mata",
+        "d": "Bulu mata",
         "benar": "a"
     }
 },{ 
     "soal8": {        
         "soal": "Mata bagian dalam terdiri atas bagian-bagian berikut, kecuali  ...",
-        "a": "a. Saraf mata",
-        "b": "b. Alis mata",
-        "c": "c. Pupil",
-        "d": "d. Retina",
+        "a": "Saraf mata",
+        "b": "Alis mata",
+        "c": "Pupil",
+        "d": "Retina",
         "benar": "b"
     }
 },{
     "soal9": {
         "soal": "Mengatur banyaknya cahaya yang masuk merupakan fungsi dari   ...",
-        "a": "a. Saraf mata",
-        "b": "b. Otot mata",
-        "c": "c. Pupil",
-        "d": "d. Iris",
+        "a": "Saraf mata",
+        "b": "Otot mata",
+        "c": "Pupil",
+        "d": "Iris",
         "benar": "c"
     }
 },{
     "soal10": {
         "soal": "Meneruskan dan memfokuskan cahaya agar jatuh tepat di retina merupakan fungsi dari  ...",
-        "a": "a. Saraf mata",
-        "b": "b. Retina",
-        "c": "c. Pupil",
-        "d": "d. Lensa mata",
+        "a": "Saraf mata",
+        "b": "Retina",
+        "c": "Pupil",
+        "d": "Lensa mata",
         "benar": "d" 
     }
 },{
     "soal11": {
         "soal": "Meneruskan rangsang cahaya yang diterima sel-sel reseptor ke susunan saraf pusat otak merupakan fungsi dari  ...",
-        "a": "a. Saraf mata",
-        "b": "b. Retina",
-        "c": "c. Iris",
-        "d": "d. Pupil",
+        "a": "Saraf mata",
+        "b": "Retina",
+        "c": "Iris",
+        "d": "Pupil",
         "benar": "a" 
     }
 },{
     "soal12": {
         "soal": "Keadaan seseorang tidak dapat membedakan warna merupakan  ...",
-        "a": "a. Buta warna",
-        "b": "b. Miopia/rabun jauh",
-        "c": "c. Prespobia/mata tua",
-        "d": "d. Hipermetropia/rabun dekat",
+        "a": "Buta warna",
+        "b": "Miopia/rabun jauh",
+        "c": "Prespobia/mata tua",
+        "d": "Hipermetropia/rabun dekat",
         "benar": "a" 
     }
 },{
     "soal13": {
         "soal": "Penderita buta warna total hanya mampu melihat warna   ...",
-        "a": "a. Merah",
-        "b": "b. Hitam",
-        "c": "c. Biru",
-        "d": "d. Hijau",
+        "a": "Merah",
+        "b": "Hitam",
+        "c": "Biru",
+        "d": "Hijau",
         "benar": "b" 
     }
 },{
     "soal14": {
         "soal": "Alat bantu yang digunakan untuk melihat benda yang letaknya amat jauh maupun melihat benda yang berkuran amat kecil disebut  ...",
-        "a": "a. Mata",
-        "b": "b. Indera penglihatan",
-        "c": "c. Alat optik",
-        "d": "d. Semua jawaban salah",
+        "a": "Mata",
+        "b": "Indera penglihatan",
+        "c": "Alat optik",
+        "d": "Semua jawaban salah",
         "benar": "c" 
     }
 },{
     "soal15": {
         "soal": "Lup merupakan salah satu alat optik yang menggunakan benda optik berupa   ...",
-        "a": "a. Cermin datar.",
-        "b": "b. Cermin cembung",
-        "c": "c. Lensa cekung",
-        "d": "d. Lensa cembung",
+        "a": "Cermin datar.",
+        "b": "Cermin cembung",
+        "c": "Lensa cekung",
+        "d": "Lensa cembung",
         "benar": "d" 
     }
 },{
     "soal16": {
         "soal": "Alat optik yang digunakan untuk mengamati keadaan permukaan laut dari kapal selam adalah   ...",
-        "a": "a. Kamera",
-        "b": "b. Lup",
-        "c": "c. Periskop",
-        "d": "d. Kacamata",
+        "a": "Kamera",
+        "b": "Lup",
+        "c": "Periskop",
+        "d": "Kacamata",
         "benar": "c" 
     }
 },{
     "soal17": {
         "soal": "Alat optik yang digunakan untuk membantu penglihatan penderita rabun jauh dan rabut dekat adalah  ...",
-        "a": "a. Kamera",
-        "b": "b. Lup",
-        "c": "c. Periskop",
-        "d": "d. Kacamata",
+        "a": "Kamera",
+        "b": "Lup",
+        "c": "Periskop",
+        "d": "Kacamata",
         "benar": "d" 
     }
 },{
     "soal18": {
         "soal": "Dibawah ini yang merupakan fungsi kamera sebagai alat optik adalah  ...",
-        "a": "a. Mengamati keadaaan di permukaan laut dari dalam kapal selam",
-        "b": "b. Memperbesar bayangan benda",
-        "c": "c. Membantu penglihatan penderita rabun jauh dan rabun dekat",
-        "d": "d. Mengabadikan dan merekam peristiwa",
+        "a": "Mengamati keadaaan di permukaan laut dari dalam kapal selam",
+        "b": "Memperbesar bayangan benda",
+        "c": "Membantu penglihatan penderita rabun jauh dan rabun dekat",
+        "d": "Mengabadikan dan merekam peristiwa",
         "benar": "d" 
     }
 },{
     "soal19": {
         "soal": "Periskop merupakan bagian penting dari perlengkapan  ...",
-        "a": "a. Kapal dagang",
-        "b": "b. Kapal layar",
-        "c": "c. Kapal selam",
-        "d": "d. Kapal pemburu",
+        "a": "Kapal dagang",
+        "b": "Kapal layar",
+        "c": "Kapal selam",
+        "d": "Kapal pemburu",
         "benar": "c" 
     }
 }]

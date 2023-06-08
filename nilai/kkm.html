@@ -1,0 +1,501 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Atur KKM</title>
+        <link href="../assets/css/style.css" rel="stylesheet" />
+        <link href="../assets/css/styles.css" rel="stylesheet" />
+        <link href="../assets/css/cstyle.css" rel="stylesheet" />
+        <script src="../assets/js/fa-all.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="../css/csshasil.css" type="text/css"> -->
+    <link rel="shortcut icon" type="icon" href="/assets/img/guru.png"> 
+    <link rel="stylesheet" href="../assets/css/all.css">
+	<script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>	
+<style>
+    label, button{
+        margin-right: 0.5%;
+    }
+    table{
+        margin: 5px;
+    }
+    @media(max-width: 1000px) {
+    .card{
+        width: fit-content;
+    }
+    
+}
+</style>
+
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="/index.html"><i class="fas fa-house"></i>Halaman Guru</a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+            </div>
+        </form>
+    </nav>
+
+     <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Daftar Isi</div>
+
+                            <a class="nav-link" href="hasil.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-fw fa-file-signature"></i></div>
+                                Nilai Siswa
+                            </a>
+                            <a class="nav-link" href="jawaban.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-fw fa-file-signature"></i></div>
+                                Jawaban Siswa
+                            </a> 
+                            <a class="nav-link active" href="kkm.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-fw fa-file-signature"></i></div>
+                                Atur KKM
+                            </a> 
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h2 class="mt-4 text-center">ATUR KKM</h2>
+
+                        <div class="container-fluid">
+
+                            <!-- Content Row -->
+                            <div class="row" style="height: 550px; width: 100%;">
+                                <div class="mb-1 col-sm bg-white border border-primary isicontent3">
+                                    <div class="d-sm-flex align-items-center justify-content-between">
+                                        <h1 class="h3 mb-0">Set KKM</h1>
+                                    </div>
+                                    <hr>
+                                    <div class="table-responsive">
+                                        <table class="table table-sm text-center">
+                                            <thead class="table-primary">
+                                                <tr>
+                                                    <th scope="col">No</th>
+                                                    <th scope="col">Kuis/Evaluasi</th>
+                                                    <th scope="col">KKM</th>
+                                                    <th scope="col">Aksi</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Kuis 1</td>
+                                                    <td>
+                                                        <div class="kkmKuis1"></div>
+                                                    </td>
+                                                    <td><button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#modalKuis1"><i
+                                                                class="fas fa-fw fa-edit"></i>Edit</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Kuis 2</td>
+                                                    <td>
+                                                        <div class="kkmKuis2"></div>
+                                                    </td>
+                                                    <td><button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#modalKuis2"><i
+                                                                class="fas fa-fw fa-edit"></i>Edit</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Kuis 3</td>
+                                                    <td>
+                                                        <div class="kkmKuis3"></div>
+                                                    </td>
+                                                    <td><button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#modalKuis3"><i
+                                                                class="fas fa-fw fa-edit"></i>Edit</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Evaluasi</td>
+                                                    <td>
+                                                        <div class="kkmEvaluasi"></div>
+                                                    </td>
+                                                    <td><button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                                            data-bs-target="#modalEvaluasi"><i
+                                                                class="fas fa-fw fa-edit"></i>Edit</button></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+     </div>
+
+    <!-- Modal Kuis 1-->
+    <div class="modal fade" id="modalKuis1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 1</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM1" id="KKM1">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM1();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis 2-->
+    <div class="modal fade" id="modalKuis2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 2</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM2" id="KKM2">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM2();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis 3-->
+    <div class="modal fade" id="modalKuis3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 3</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM3" id="KKM3">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM3();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Evaluasi-->
+    <div class="modal fade" id="modalEvaluasi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Evaluasi</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM5" id="KKM5">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM5();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>    <!-- Modal Kuis 1-->
+    <div class="modal fade" id="modalKuis1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 1</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM1" id="KKM1">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM1();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis 2-->
+    <div class="modal fade" id="modalKuis2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 2</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM2" id="KKM2">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM2();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis 3-->
+    <div class="modal fade" id="modalKuis3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 3</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM3" id="KKM3">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM3();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Evaluasi-->
+    <div class="modal fade" id="modalEvaluasi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Evaluasi</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM5" id="KKM5">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM5();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>    <!-- Modal Kuis 1-->
+    <div class="modal fade" id="modalKuis1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 1</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM1" id="KKM1">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM1();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis 2-->
+    <div class="modal fade" id="modalKuis2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 2</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM2" id="KKM2">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM2();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Kuis 3-->
+    <div class="modal fade" id="modalKuis3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Kuis 3</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM3" id="KKM3">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM3();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Evaluasi-->
+    <div class="modal fade" id="modalEvaluasi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit KKM Evaluasi</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">KKM</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control KKM5" id="KKM5">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="setKKM5();"
+                        data-bs-dismiss="modal">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script> -->
+    
+    <!-- Script JS -->
+    <script src="../assets/js/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="../assets/demo/chart-area-demo.js"></script>
+    <script src="../assets/demo/chart-bar-demo.js"></script>
+    <script src="../assets/js/simple-datatables.js" crossorigin="anonymous"></script>
+    <script src="../assets/js/datatables-simple-demo.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+        <!-- SDK Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <!-- <script src="../assets/js/jawaban.js"></script> -->
+    <!-- <script src="../assets/js/scriptnilai.js "></script> -->
+    <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/js/cscript.js"></script>
+    <script src="../assets/js/kkm.js"></script>
+<script src="../assets/js/script.js"></script>
+</body>
+</html> 

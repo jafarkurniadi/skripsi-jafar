@@ -9,6 +9,23 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
+  const db = firebase.database();
+  const dbkkm = db.ref('db_kkm/').on('value', kkmSuccess, handleError)
+  
+  let loop1;
+  let kkm1 = 0;
+  
+  function kkmSuccess(items1) {
+    kkm1 = items1.val()[0]['kkm'];
+    console.log(kkm1);
+    var kkm1html =  document.querySelector('.kkm1');
+    kkm1html.innerHTML = kkm1;
+  }
+  
+  function handleError(error) {
+    console.log(error);
+  }
     
 let wktu = document.querySelector('.waktu');
 let nilaiwktu=0;
@@ -268,7 +285,7 @@ dat.onreadystatechange = function () {
             let nav_sebelum = document.createElement('div');
             nav_sebelum.setAttribute('class', 'nav_sebelum');
             if (i == 0) {
-                nav_sebelum.className += " disablee";
+                nav_sebelum.className += " hilang";
             }
 
             let new_p2 = document.createElement('p');
@@ -284,7 +301,7 @@ dat.onreadystatechange = function () {
             let nav_selanjut = document.createElement('div');
             nav_selanjut.setAttribute('class', 'nav_selanjut');
             if (i == (cek.length - 1)) {
-                nav_selanjut.className += " disablee";
+                nav_selanjut.className += " hilang";
             }
 
             let new_p4 = document.createElement('p');
@@ -486,9 +503,13 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=70){
+                if(hasilakhir>=kkm1){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
+                    // document.getElementById("next").hidden = false;
+                    // gaskuy.hidden = false;
+                    // document.getElementById("lulus").hidden = false;
+                    // lulus.hidden = false;
                 } else {
                     let ulang = document.getElementById("ulang");
                     ulang.className = ulang.className.replace("hilang","");
@@ -596,7 +617,7 @@ dat.onreadystatechange = function () {
                 let datanya = document.querySelector('.dataaa');
                 datanya.className = datanya.className.replace('hilang', '');
 
-                if(hasilakhir>=70){
+                if(hasilakhir>=kkm1){
                     let next = document.getElementById("next");
                     next.className = next.className.replace("hilang","");
                 } else {

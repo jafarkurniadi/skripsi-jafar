@@ -20,6 +20,13 @@ article {
 
 article .count {
     padding: 5px;
+}       
+article #timerr {
+    padding: 1px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 article #timer {
@@ -137,14 +144,23 @@ ol.pil{
         float: left;
         width: 70%;
         background-color: white;
-        height: 90vh;
+        /* height: 90vh; */
         overflow: auto;
         padding-left: 20px;
         text-align: justify;
         box-sizing: border-box;
         margin-top: 0;
     }
-
+.kanann {
+    float: right;
+    margin-top: -3%;
+        width: 30%;
+        background-color: white;
+        height: 60vh;        
+        padding: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+}
     .kanan {
         float: right;
         width: 30%;
