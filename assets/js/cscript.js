@@ -420,7 +420,7 @@ function cek1(){
         jawabcek1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
                             Jawaban Anda ${benar}<br>
                             <div class="pembahasan2">
-                            <u>Pembahasan :</u>
+                            <u>Kesimpulan :</u>
                             </div>
                             Ketika laser dinyalakan dan diarahkan menuju penggaris, cahaya laser akan terlihat <span class="benar">memantul</span> begitu juga saat kita keluar ruangan dengan membawa cermin yang diarahkan ke tembok, maka cahaya matahari akan <span class="benar">terlihat</span> di tembok. Dari kegiatan tersebut maka dapat disimpulkan bahwa cahaya memiliki sifat dapat <span class="benar">dipantulkan</span>.
                             </div>`;  
@@ -476,14 +476,13 @@ function repeatt2(){
 }
 
 
-
 function cekk1(){
     if ((bb1.innerText == 'bengkok')&&(bb2.innerText == 'lurus')&&(bb3.innerText == 'dibiaskan')) {
         const jawabcekk1 = document.getElementById('jawabcekk1');
         jawabcekk1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
                             Jawaban Anda ${benar}<br>
                             <div class="pembahasan3">
-                            <u>Pembahasan :</u>
+                            <u>Kesimpulan :</u>
                             </div>
                             Ketika pensil dimasukkan ke dalam gelas bening yang berisi air, maka pensil tersebut akan terlihat <span class="benar">bengkok</span>. Sebaliknya ketika pensil dimasukkan ke dalam gelas bening yang kosong maka akan terlihat <span class="benar">lurus</span>. Dari kegiatan tersebut maka dapat disimpulkan bahwa cahaya memiliki sifat dapat <span class="benar">dibiaskan</span>.
                             </div>`;  
@@ -492,7 +491,7 @@ function cekk1(){
         jawabcekk1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
                             Jawaban Anda ${salah}<br>
                             <div class="pembahasan3">
-                            <u>Pembahasan :</u>
+                            <u>Kesimpulan :</u>
                             </div>
                             Silahkan ulangi dan coba jawab lagi
                             </div>`; 
